@@ -9,9 +9,9 @@
 
 <script>
 
-import {auth} from './firebase'
+import db from './firebase/init'
 
-console.log(auth);
+console.log(db);
 
 export default {
   name: 'App',
